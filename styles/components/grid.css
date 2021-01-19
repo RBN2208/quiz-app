@@ -1,0 +1,10 @@
+.app-grid {
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-rows: auto;
+  grid-row-gap: 10px
+  grid-template-areas:
+    'head head head'
+    '. main .'
+    'footer footer footer';
+}

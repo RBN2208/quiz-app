@@ -6,7 +6,74 @@
     <title>Quiz App</title>
     <link rel="stylesheet" href="styles/index.css" />
 
-    <style></style>
+    <style>
+      .app-grid__header {
+        grid-area: head;
+        width: 100%;
+        height: 75px;
+        background-color: rgb(118, 118, 201);
+        text-align: center;
+        position: fixed;
+      }
+
+      .app-grid__content {
+        grid-area: main;
+        grid-row-gap: 10px
+        width: auto;
+      }
+
+      .app-grid__navigation {
+        grid-area: footer;
+        width: 100%;
+        height: 75px;
+        background-color: rgb(118, 118, 201);
+        text-align: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        z-index: 1000;
+      }
+
+      .quizcard {
+        grid-area: main;
+        width: auto;
+        height: 500px;
+        background-color: rgb(36, 36, 51);
+        border: 1px solid black;
+      }
+    </style>
   </head>
-  <body></body>
+  <body class="app-grid">
+    <header class="app-grid__header">
+      <h1>Quiz App</h1>
+    </header>
+
+    <main class="app-grid__content">
+      <section class="quizcard">
+        <h3>Quiz Card</h3>
+      </section>
+      <section class="quizcard">
+        <h3>Quiz Card</h3>
+      </section>
+      <section class="quizcard">
+        <h3>Quiz Card</h3>
+      </section>
+      <section class="quizcard">
+        <h3>Quiz Card</h3>
+      </section>
+      <section class="quizcard">
+        <h3>Quiz Card</h3>
+      </section>
+      <section class="quizcard">
+        <h3>Quiz Card</h3>
+      </section>
+      <section class="quizcard">
+        <h3>Quiz Card</h3>
+      </section>
+    </main>
+
+    <footer class="app-grid__navigation">
+      <h3>Navigation</h3>
+    </footer>
+  </body>
 </html>

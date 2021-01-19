@@ -1,0 +1,15 @@
+.app-grid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 15px auto 15px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'head head head'
+    '. main .'
+    'footer footer footer';
+}
+
+.app-grid__content {
+  grid-area: main;
+  overflow: scroll;
+}

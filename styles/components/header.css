@@ -1,0 +1,5 @@
+.app-grid__header {
+  grid-area: head;
+  background-color: rgb(118, 118, 201);
+  text-align: center;
+}

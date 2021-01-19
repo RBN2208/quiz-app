@@ -1,0 +1,5 @@
+.app-grid__navigation {
+  grid-area: footer;
+  background-color: rgb(118, 118, 201);
+  text-align: center;
+}

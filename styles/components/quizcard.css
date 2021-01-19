@@ -1,0 +1,6 @@
+.quizcard {
+  width: auto;
+  height: 200px;
+  background-color: rgb(36, 36, 51);
+  border: 1px solid black;
+}

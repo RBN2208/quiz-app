@@ -1,1 +1,5 @@
 @import '_base.css';
+@import 'components/grid.css';
+@import 'components/header.css';
+@import 'components/navigation.css';
+@import 'components/quizcard.css';

@@ -9,14 +9,12 @@
 }
 
 .header__heading {
-  margin-top: 1px;
+  margin: 0;
 }
 
 .header__heading-box {
-  display: inline-block;
   width: 125px;
   height: 35px;
   padding-top: 3px;
   box-shadow: 0 0 15px #0004428c;
-  margin-top: 6px;
 }

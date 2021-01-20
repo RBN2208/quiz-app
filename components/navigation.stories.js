@@ -1,10 +1,11 @@
-import '../styles/index.css'
+import '../src/fontawesome/css/all.css'
 
 import './navigation.css'
 import navigation from './navigation.html'
 
 export default {
   title: 'Navigation',
+  component: navigation,
 }
 
 export const base = () => navigation

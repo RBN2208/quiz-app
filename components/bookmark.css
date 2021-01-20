@@ -7,11 +7,11 @@
 
 .bookmark__box--outside {
   position: absolute;
-  color: rgb(50, 100, 150);
+  color: rgb(85, 85, 85);
   cursor: pointer;
 }
 
 .bookmark__box--inside {
   position: absolute;
-  color: rgb(190, 190, 190);
+  color: var(--light);
 }

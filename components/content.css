@@ -3,5 +3,5 @@
   overflow-y: scroll;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: rgb(190, 190, 190);
+  background-color: var(--lightyell;
 }

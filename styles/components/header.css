@@ -1,5 +1,22 @@
 .app-grid__header {
-  grid-area: head;
-  background-color: rgb(118, 118, 201);
+  grid-area: header;
+  background-color: rgb(50, 100, 150);
   text-align: center;
+  color: white;
+  font-size: 10px;
+  box-shadow: 0 -5px 30px rgb(0, 0, 0);
+  z-index: 1;
+}
+
+.header__heading {
+  margin-top: 1px;
+}
+
+.header__heading-box {
+  display: inline-block;
+  width: 125px;
+  height: 35px;
+  padding-top: 3px;
+  box-shadow: 0 0 15px #0004428c;
+  margin-top: 6px;
 }

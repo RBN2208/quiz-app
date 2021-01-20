@@ -1,6 +1,30 @@
-.quizcard {
+.quizcard__card {
   width: auto;
-  height: 140px;
-  background-color: rgb(225, 225, 225);
-  border: 1px solid black;
+  height: auto;
+  margin: 15px 0;
+  position: relative;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  border: 2px solid rgb(150, 150, 150);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(150, 150, 150);
+}
+
+.quizcard__card--headline {
+  padding-left: 10px;
+  margin-top: 10px;
+  text-align: left;
+  background-color: darkseagreen;
+}
+
+.quizcard__details--box {
+  width: 80%;
+  margin: 15px auto;
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.quizcard__details--summary {
+  background-color: ivory;
 }

@@ -1,6 +1,6 @@
 .app-grid__navigation {
   grid-area: footer;
-  background-color: rgb(225, 225, 225);
+  background-color: rgb(240, 240, 240);
   text-align: center;
   box-shadow: 0 10px 30px rgb(0, 0, 0);
   pointer-events: none;

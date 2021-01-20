@@ -1,0 +1,22 @@
+.create__input {
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid var(--peach);
+  border-radius: 5px;
+}
+
+.create__tags {
+  height: 40px;
+}
+
+.create__submit {
+  width: 100%;
+  height: 35px;
+  border: none;
+  background: var(--blue);
+  border-radius: 5px;
+  color: var(--white);
+  cursor: pointer;
+}

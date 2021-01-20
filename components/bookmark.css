@@ -15,3 +15,7 @@
   position: absolute;
   color: var(--light);
 }
+
+.bookmark__marked {
+  color: var(--sweet);
+}

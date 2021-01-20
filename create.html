@@ -10,11 +10,21 @@
   <body class="app-grid">
     <header class="app-grid__header centered-grid">
       <div class="header__heading-box centered-grid">
-        <h1 class="header__heading">Quizzy</h1>
+        <h1 class="header__heading">Create</h1>
       </div>
     </header>
 
-    <main class="app-grid__content centered-grid"></main>
+    <main class="app-grid__content centered-grid">
+      <form action="">
+      <p>What is your question?</p>
+      <textarea class="create__input" type="text" placeholder="your question"></textarea>
+      <p>What is the answer?</p>
+      <textarea class="create__input" type="text" placeholder="your answer"></textarea>
+      <p>Add your tags</p>
+      <input class="create__input create__tags" type="text" placeholder="add some tags">
+      <input class="create__submit" type="submit" value="submit">
+    </form>
+    </main>
 
     <footer class="app-grid__navigation">
       <nav class="navigation__box">

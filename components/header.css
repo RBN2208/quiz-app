@@ -1,6 +1,6 @@
 .app-grid__header {
   grid-area: header;
-  background-color: var(--blue);
+  background-color: var(--teal);
   text-align: center;
   color: white;
   font-size: 10px;

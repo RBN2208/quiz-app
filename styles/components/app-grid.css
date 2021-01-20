@@ -1,0 +1,9 @@
+.app-grid {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 48px auto 65px;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+}

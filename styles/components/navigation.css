@@ -1,5 +1,24 @@
 .app-grid__navigation {
   grid-area: footer;
-  background-color: rgb(118, 118, 201);
+  background-color: rgb(225, 225, 225);
   text-align: center;
+  box-shadow: 0 10px 30px rgb(0, 0, 0);
+}
+
+.navigation__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+  height: 100%;
+  font-size: 35px;
+  color: white;
+}
+
+.navigation__button {
+  color: rgb(110, 110, 110);
+}
+
+.navigation__button a:visited:active {
+  color: rgb(50, 100, 150);
 }

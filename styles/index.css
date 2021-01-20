@@ -1,5 +1,5 @@
-@import '_base.css';
-@import '_utilities.css';
+@import './base.css';
+@import './utilities.css';
 @import './components/app-grid.css';
 @import './components/header.css';
 @import './components/content.css';

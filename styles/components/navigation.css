@@ -22,6 +22,6 @@
   font-size: 30px;
 }
 
-.navigation__button :active {
+.navigation__button:active {
   color: rgb(50, 100, 150);
 }

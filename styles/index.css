@@ -1,9 +1,9 @@
 @import './base.css';
 @import './utilities.css';
-@import './components/app-grid.css';
-@import './components/header.css';
-@import './components/content.css';
-@import './components/navigation.css';
-@import './components/quizcard.css';
-@import './components/bookmark.css';
+@import '../components/app-grid.css';
+@import '../components/header.css';
+@import '../components/content.css';
+@import '../components/navigation.css';
+@import '../components/quizcard.css';
+@import '../components/bookmark.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');

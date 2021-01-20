@@ -3,6 +3,7 @@
   background-color: rgb(225, 225, 225);
   text-align: center;
   box-shadow: 0 10px 30px rgb(0, 0, 0);
+  pointer-events: none;
 }
 
 .navigation__box {
@@ -13,12 +14,13 @@
   height: 100%;
   font-size: 35px;
   color: white;
+  pointer-events: all;
 }
 
 .navigation__button {
   color: rgb(110, 110, 110);
 }
 
-.navigation__button a:visited:active {
+.navigation__button :hover {
   color: rgb(50, 100, 150);
 }

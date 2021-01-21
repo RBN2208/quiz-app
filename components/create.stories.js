@@ -1,5 +1,3 @@
-import '../src/fontawesome/css/all.css'
-
 import './create.css'
 import create from './create.html'
 

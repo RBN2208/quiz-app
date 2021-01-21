@@ -31,3 +31,9 @@
   margin-left: 5px;
   color: var(--blue);
 }
+
+input:focus,
+textarea:focus {
+  outline: none !important;
+  border: 2px solid var(--sweet);
+}

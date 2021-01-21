@@ -26,6 +26,33 @@
   background-color: var(--white);
 }
 
+details[open] .answer__show {
+  display: none;
+}
+details[open] .answer__hide {
+  display: inline-block;
+}
+
+details .answer__hide {
+  display: none;
+}
+
 .quizcard__answer-button {
   background-color: var(--peach);
+}
+
+.quizcard__tags {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  list-style-type: none;
+  padding: 0;
+  font-size: 11px;
+}
+
+.quizcard__tags li {
+  background-color: var(--teal);
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin: 4px;
 }

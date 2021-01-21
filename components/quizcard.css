@@ -10,14 +10,14 @@
   box-shadow: 0 0 15px rgb(150, 150, 150);
 }
 
-.quizcard__card--headline {
+.quizcard__headline {
   padding-left: 10px;
   margin-top: 10px;
   text-align: left;
   background-color: var(--blue);
 }
 
-.quizcard__details--box {
+.quizcard__details {
   width: 80%;
   margin: 15px auto;
   border: 1px solid rgb(150, 150, 150);
@@ -26,6 +26,6 @@
   background-color: var(--white);
 }
 
-.quizcard__details--summary {
+.quizcard__answer-button {
   background-color: var(--peach);
 }

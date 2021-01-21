@@ -1,19 +1,18 @@
-.quizcard__bookmark--box {
-  position: absolute;
-  right: 45px;
-  top: -20px;
-  font-size: 35px;
-}
-
-.bookmark__box--outside {
+.bookmark__outside {
   position: absolute;
   color: rgb(85, 85, 85);
   cursor: pointer;
+  font-size: 40px;
+  top: -20px;
+  right: 20px;
 }
 
-.bookmark__box--inside {
+.bookmark__inside {
   position: absolute;
   color: var(--light);
+  font-size: 40px;
+  top: -20px;
+  right: 20px;
 }
 
 .bookmark__marked {

@@ -1,4 +1,4 @@
-.app-grid__navigation {
+.footer {
   grid-area: footer;
   background-color: var(--teal);
   text-align: center;
@@ -7,7 +7,7 @@
   pointer-events: none;
 }
 
-.navigation__box {
+.navigation {
   display: flex;
   align-items: center;
   justify-content: space-around;

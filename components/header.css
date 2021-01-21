@@ -1,4 +1,4 @@
-.app-grid__header {
+.header {
   grid-area: header;
   background-color: var(--teal);
   text-align: center;
@@ -10,11 +10,6 @@
 
 .header__heading {
   margin: 0;
-}
-
-.header__heading-box {
-  width: 125px;
-  height: 35px;
-  padding-top: 3px;
+  padding: 3px 15px;
   box-shadow: 0 0 15px #0004428c;
 }

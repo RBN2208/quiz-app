@@ -8,30 +8,35 @@
     <link href="src/fontawesome/css/all.css" rel="stylesheet" />
   </head>
   <body class="app-grid">
-    <header class="app-grid__header centered-grid">
-      <div class="header__heading-box centered-grid">
-        <h1 class="header__heading">Create</h1>
-      </div>
+    <header class="header centered-grid">
+      <h1 class="header__heading">Create</h1>
     </header>
 
-    <main class="app-grid__content centered-grid">
+    <main class="content centered-grid">
       <form action="">
-        <p class="no-marg__top">What is your question?</p>
+        <label for="question">What is your question?</label>
         <textarea
+          id="questions"
           class="create__input"
           type="text"
           placeholder="your question"
           required
         ></textarea>
-        <p class="no-marg__top">What is the answer?</p>
+        <label for="answer">What is the answer?</label>
         <textarea
+          id="answer"
           class="create__input"
           type="text"
           placeholder="your answer"
           required
         ></textarea>
-        <p class="no-marg__top">Add your tags</p>
+        <label for="tags"
+          >Add some tags!<span class="tag__info"
+            >(Hint: "example, example, ...")</span
+          ></label
+        >
         <input
+          id="tags"
           class="create__input create__tags"
           type="text"
           placeholder="add some tags"
@@ -40,8 +45,8 @@
       </form>
     </main>
 
-    <footer class="app-grid__navigation">
-      <nav class="navigation__box">
+    <footer class="footer">
+      <nav class="navigation">
         <a aria-label="home" class="navigation__button" href="index.html"
           ><i class="far fa-star"></i
         ></a>

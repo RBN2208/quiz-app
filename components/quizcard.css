@@ -5,7 +5,7 @@
   position: relative;
   background-color: var(--light);
   text-align: center;
-  border: 2px solid var(--teal);
+  border: 2px solid var(--blue);
   border-radius: 10px;
   box-shadow: 0 0 15px rgb(150, 150, 150);
 }

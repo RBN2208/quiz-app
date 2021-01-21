@@ -2,3 +2,7 @@
   display: grid;
   place-content: center;
 }
+
+.no-marg__top {
+  margin-top: 0;
+}

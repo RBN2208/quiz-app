@@ -16,14 +16,28 @@
 
     <main class="app-grid__content centered-grid">
       <form action="">
-      <p>What is your question?</p>
-      <textarea class="create__input" type="text" placeholder="your question"></textarea>
-      <p>What is the answer?</p>
-      <textarea class="create__input" type="text" placeholder="your answer"></textarea>
-      <p>Add your tags</p>
-      <input class="create__input create__tags" type="text" placeholder="add some tags">
-      <input class="create__submit" type="submit" value="submit">
-    </form>
+        <p class="no-marg__top">What is your question?</p>
+        <textarea
+          class="create__input"
+          type="text"
+          placeholder="your question"
+          required
+        ></textarea>
+        <p class="no-marg__top">What is the answer?</p>
+        <textarea
+          class="create__input"
+          type="text"
+          placeholder="your answer"
+          required
+        ></textarea>
+        <p class="no-marg__top">Add your tags</p>
+        <input
+          class="create__input create__tags"
+          type="text"
+          placeholder="add some tags"
+        />
+        <input class="create__submit" type="submit" value="submit" />
+      </form>
     </main>
 
     <footer class="app-grid__navigation">
@@ -34,21 +48,13 @@
         <a aria-label="bookmark" class="navigation__button" href="bookmark.html"
           ><i class="far fa-bookmark"></i
         ></a>
-        <a aria-label="newcard" class="navigation__button current__link" href="create.html"
+        <a
+          aria-label="newcard"
+          class="navigation__button current__link"
+          href="create.html"
           ><i class="far fa-plus-square"></i
         ></a>
         <a aria-label="profil" class="navigation__button" href="settings.html"
-          ><i class="far fa-user-circle"></i
-        ></a>
-      </nav>><i class="far fa-star"></i
-        ></a>
-        <a aria-label="bookmark" class="navigation__button" href=""
-          ><i class="far fa-bookmark"></i
-        ></a>
-        <a aria-label="newcard" class="navigation__button" href=""
-          ><i class="far fa-plus-square"></i
-        ></a>
-        <a aria-label="profil" class="navigation__button" href=""
           ><i class="far fa-user-circle"></i
         ></a>
       </nav>

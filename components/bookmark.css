@@ -1,20 +1,16 @@
-.bookmark__outside {
+.bookmark__sign {
   position: absolute;
-  color: rgb(85, 85, 85);
+  color: var(--sweet);
+  font-size: 40px;
+  top: -20px;
+  right: 20px;
   cursor: pointer;
-  font-size: 40px;
-  top: -20px;
-  right: 20px;
 }
 
-.bookmark__inside {
-  position: absolute;
-  color: var(--light);
-  font-size: 40px;
-  top: -20px;
-  right: 20px;
+.unmarked {
+  color: darkgrey;
 }
 
-.bookmark__marked {
+.marked {
   color: var(--gold);
 }

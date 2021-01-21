@@ -6,6 +6,9 @@
   border: 2px solid var(--peach);
   border-radius: 5px;
   resize: none;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: darkgray;
 }
 
 .create__tags {

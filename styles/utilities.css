@@ -3,6 +3,6 @@
   place-content: center;
 }
 
-.current__link {
-  color: rgb(50, 100, 150);
+.no-marg__top {
+  margin-top: 0;
 }

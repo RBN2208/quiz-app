@@ -1,0 +1,30 @@
+.create__input {
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  margin-bottom: 45px;
+  border: 2px solid var(--peach);
+  border-radius: 5px;
+  resize: none;
+}
+
+.create__tags {
+  height: 40px;
+}
+
+.create__submit {
+  width: 100%;
+  height: 35px;
+  border: none;
+  background: var(--blue);
+  border-radius: 5px;
+  color: var(--white);
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.tag__info {
+  font-size: 12px;
+  margin-left: 5px;
+  color: var(--blue);
+}

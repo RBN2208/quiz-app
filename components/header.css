@@ -3,13 +3,12 @@
   background-color: var(--teal);
   text-align: center;
   color: white;
-  font-size: 10px;
+  font-size: 15px;
   box-shadow: 0 -5px 30px rgb(0, 0, 0);
   z-index: 1;
 }
 
 .header__heading {
   margin: 0;
-  padding: 3px 15px;
-  box-shadow: 0 0 15px #0004428c;
+  filter: drop-shadow(0 0 8px black);
 }

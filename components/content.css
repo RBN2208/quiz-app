@@ -5,9 +5,3 @@
   padding-right: 15px;
   background-color: var(--light);
 }
-
-.content__position {
-  display: grid;
-  gap: 10px;
-  margin-top: 15px;
-}

@@ -1,7 +1,7 @@
 import '../src/fontawesome/css/all.css'
 
-import './profil.css',
-import profile from './profil.html'
+import './profil.css'
+import './profil.html'
 
 export default {
   title: 'Profil',

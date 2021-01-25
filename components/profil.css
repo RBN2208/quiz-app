@@ -1,6 +1,13 @@
+.profil__section {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
 .profile {
   text-align: center;
-  margin-top: -130px;
+  display: flex;
+  align-items: center;
 }
 
 .profilpic {
@@ -8,5 +15,46 @@
   height: 170px;
   box-shadow: 0 0 10px black;
   border-radius: 50%;
-  margin: 10px;
+  margin: 25px 25px 50px 0;
+}
+
+.profil__info {
+  text-align: left;
+  padding: 10px;
+  background-color: var(--peach);
+  border-radius: 10px;
+  position: relative;
+}
+
+.profil__info p {
+  margin: 0;
+}
+
+.profil__info--change {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  right: 2%;
+  top: 3%;
+  cursor: pointer;
+  font-size: 17px;
+}
+.profil__skills {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.profil__skills li {
+  padding: 1px 5px;
+  background-color: var(--sweet);
+  border-radius: 5px;
+  margin: 3px;
+  font-size: 0.9rem;
+}
+
+.profil__select {
+  text-align: center;
+  margin-top: 30px;
 }

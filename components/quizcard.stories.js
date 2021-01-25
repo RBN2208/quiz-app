@@ -1,4 +1,3 @@
-import '../styles/index.css'
 import '../src/fontawesome/css/all.css'
 
 import './quizcard.css'

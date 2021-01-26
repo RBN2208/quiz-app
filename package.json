@@ -5,9 +5,10 @@
     "prettier:write": "prettier --write .",
     "stylelint": "npx stylelint \"**/*.css\"",
     "test": "htmlhint && prettier --check . && npm run stylelint",
-    "start": "live-server --no-css-inject",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "keywords": [],
   "author": "Robin",
@@ -40,6 +41,7 @@
     "stylelint-config-standard": "^20.0.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.2"
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "snowpack": "^3.0.11"
   }
 }

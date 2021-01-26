@@ -21,6 +21,7 @@
 .navigation__button {
   color: var(--lightyell);
   font-size: 30px;
+  cursor: pointer;
 }
 
 .current__link {

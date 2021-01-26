@@ -6,3 +6,11 @@
 .no-marg__top {
   margin-top: 0;
 }
+
+.hidden {
+  display: none !important;
+}
+
+.mg-top {
+  margin-top: 10%;
+}

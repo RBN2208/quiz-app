@@ -1,6 +1,6 @@
-@import './base.css';
-@import './utilities.css';
-@import './variables.css';
+@import './_base.css';
+@import './_utilities.css';
+@import './_variables.css';
 @import '..//components/app-grid.css';
 @import '../components/header.css';
 @import '../components/content.css';

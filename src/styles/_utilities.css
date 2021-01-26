@@ -10,3 +10,7 @@
 .hidden {
   display: none !important;
 }
+
+.mg-top {
+  margin-top: 10%;
+}

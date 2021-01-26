@@ -148,7 +148,7 @@
         </section>
       </section>
 
-      <section data-js="siteBook" class="hidden">
+      <section hidden data-js="siteBook">
         <section class="quizcard__card">
           <div role="button" class="bookmark__sign marked">
             <i class="fas fa-bookmark"></i>
@@ -195,7 +195,7 @@
         </section>
       </section>
 
-      <section data-js="siteCreate" class="hidden">
+      <section hidden data-js="siteCreate" class="mg-top">
         <form action="">
           <label for="question">What is your question?</label>
           <textarea
@@ -227,7 +227,7 @@
           <input class="create__submit" type="submit" value="Create my card" />
         </form>
       </section>
-      <section data-js="siteProfile" class="hidden">
+      <section hidden data-js="siteProfile">
         <div class="profil__info--change" role="button">
           <i class="fas fa-cog"></i>
         </div>
@@ -269,17 +269,30 @@
       <nav class="navigation">
         <a
           aria-label="home"
-          class="navigation__button current__link"
-          href="index.html"
+          class="navigation__button"
+          data-js="buttonIndex"
+          role="button"
           ><i class="far fa-star"></i
         ></a>
-        <a aria-label="bookmark" class="navigation__button" href="bookmark.html"
+        <a
+          aria-label="bookmark"
+          class="navigation__button"
+          data-js="buttonBook"
+          role="button"
           ><i class="far fa-bookmark"></i
         ></a>
-        <a aria-label="newcard" class="navigation__button" href="create.html"
+        <a
+          aria-label="newcard"
+          class="navigation__button"
+          data-js="buttonCreate"
+          role="button"
           ><i class="far fa-plus-square"></i
         ></a>
-        <a aria-label="profil" class="navigation__button" href="settings.html"
+        <a
+          aria-label="profil"
+          class="navigation__button"
+          data-js="buttonProfile"
+          role="button"
           ><i class="far fa-user-circle"></i
         ></a>
       </nav>

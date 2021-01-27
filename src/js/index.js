@@ -8,6 +8,8 @@ const butBook = document.querySelector('[data-js=buttonBook]')
 const butCreate = document.querySelector('[data-js=buttonCreate]')
 const butProfile = document.querySelector('[data-js=buttonProfile]')
 
+const bookSign = document.querySelector('[data-js=bookmarkSign]')
+
 butIndex.addEventListener('click', () => {
   sIndex.hidden = false
   sBook.hidden = true
@@ -50,4 +52,8 @@ butProfile.addEventListener('click', () => {
   butBook.classList.remove('current__link')
   butCreate.classList.remove('current__link')
   butProfile.classList.add('current__link')
+})
+
+bookSign.addEventListener('click', () => {
+  bookSign.classList.toggle('marked')
 })

@@ -1,14 +1,10 @@
 .bookmark__sign {
   position: absolute;
-  color: var(--sweet);
+  color: darkgrey;
   font-size: 40px;
   top: -20px;
   right: 20px;
   cursor: pointer;
-}
-
-.unmarked {
-  color: darkgrey;
 }
 
 .marked {

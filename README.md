@@ -3,9 +3,9 @@
 ## Notes
 
 - implement javascript function for:
-  -- counter for question/answer
-  -- show/hide answer toggle via js
-  -- checkbox for darkmode
+  [x] counter for question/answer
+  [] show/hide answer toggle via js
+  [] checkbox for darkmode
 
 ## Installation
 

@@ -8,5 +8,5 @@
 }
 
 .marked {
-  color: var(--gold);
+  color: var(--gold) !important;
 }

@@ -6,7 +6,7 @@
     <title>Quizzzy</title>
     <link rel="stylesheet" href="../styles/index.css" />
     <script defer type="module" src="./js/navigationtoggle.js"></script>
-    <script defer type="module" src="./js/bookmarktoggle.js"></script>
+    <script defer type="module" src="./js/createform.js"></script>
   </head>
   <body class="app-grid">
     <header class="header centered-grid">
@@ -174,13 +174,14 @@
       </section>
 
       <section hidden data-js="siteCreate" class="mg-top">
-        <form action="">
+        <form data-js="formElement">
           <label for="question">What is your question?</label>
           <textarea
             id="questions"
             class="create__input"
             type="text"
             placeholder="your question"
+            data-js="formQuestion"
             required
           ></textarea>
           <label for="answer">What is the answer?</label>
@@ -189,6 +190,7 @@
             class="create__input"
             type="text"
             placeholder="your answer"
+            data-js="formAnswer"
             required
           ></textarea>
           <label for="tags"
@@ -200,6 +202,7 @@
             id="tags"
             class="create__input create__tags"
             type="text"
+            data-js="formTags"
             placeholder="add some tags"
           />
           <input class="create__submit" type="submit" value="Create my card" />

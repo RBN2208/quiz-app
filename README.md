@@ -1,8 +1,11 @@
 # Quiz App
 
-## Template usage
+## Notes
 
-_Don't forget to update the author (and more) in the package.json_
+- implement javascript function for:
+  -- counter for question/answer
+  -- show/hide answer toggle via js
+  -- checkbox for darkmode
 
 ## Installation
 

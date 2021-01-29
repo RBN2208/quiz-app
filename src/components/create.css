@@ -42,23 +42,7 @@ textarea:focus {
   position: relative;
 }
 
-.question-counter {
-  position: absolute;
-  bottom: 50px;
-  right: 8px;
-  font-size: 10px;
-  color: var(--teal);
-}
-
-.answer-counter {
-  position: absolute;
-  bottom: 50px;
-  right: 8px;
-  font-size: 10px;
-  color: var(--teal);
-}
-
-.tag-counter {
+.counter {
   position: absolute;
   bottom: 50px;
   right: 8px;

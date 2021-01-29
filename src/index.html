@@ -187,7 +187,7 @@
               data-js="formQuestion"
               required
             ></textarea>
-            <span class="question-counter" data-js="qCounter">0/200</span>
+            <span class="counter" data-js="qCounter">0/200</span>
           </div>
 
           <div class="textarea__relative">
@@ -201,24 +201,20 @@
               data-js="formAnswer"
               required
             ></textarea>
-            <span class="answer-counter" data-js="aCounter">0/200</span>
+            <span class="counter" data-js="aCounter">0/200</span>
           </div>
 
           <div class="textarea__relative">
-            <label for="tags"
-              >Add some tags!<span class="tag__info"
-                >(Hint: "example, example, ...")</span
-              ></label
-            >
+            <label for="tags">Add some tags!</label>
             <input
               id="tags"
               class="create__input create__tags"
               type="text"
               data-js="formTags"
-              placeholder="add some tags"
+              placeholder="(Hint: example, example, ...)"
               maxlength="50"
             />
-            <span class="tag-counter" data-js="tagCounter">0/50</span>
+            <span class="counter" data-js="tagCounter">0/50</span>
           </div>
           <input class="create__submit" type="submit" value="Create my card" />
         </form>

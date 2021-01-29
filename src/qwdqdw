@@ -1,0 +1,43 @@
+<form data-js="formElement">
+          <div class="textarea__relative">
+            <label for="question">What is your question?</label>
+            <textarea
+              maxlength="200"
+              id="questions"
+              class="create__input"
+              type="text"
+              placeholder="your question"
+              data-js="formQuestion"
+              required
+            ></textarea>
+            <span class="counter" data-js="qCounter">0/200</span>
+          </div>
+
+          <div class="textarea__relative">
+            <label for="answer">What is the answer?</label>
+            <textarea
+              maxlength="200"
+              id="answer"
+              class="create__input"
+              type="text"
+              placeholder="your answer"
+              data-js="formAnswer"
+              required
+            ></textarea>
+            <span class="counter" data-js="aCounter">0/200</span>
+          </div>
+
+          <div class="textarea__relative">
+            <label for="tags">Add some tags!</label>
+            <input
+              id="tags"
+              class="create__input create__tags"
+              type="text"
+              data-js="formTags"
+              placeholder="(Hint: example, example, ...)"
+              maxlength="50"
+            />
+            <span class="counter" data-js="tagCounter">0/50</span>
+          </div>
+          <input class="create__submit" type="submit" value="Create my card" />
+        </form>

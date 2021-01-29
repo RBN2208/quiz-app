@@ -1,25 +1,14 @@
 const formEl = getElement('formElement')
-const textareaQuestion = getElement('formQuestion')
-const textareaAnswer = getElement('formAnswer')
-const textareaTags = getElement('formTags')
+const textareaQuestion = getElement('inputbox')
 
-const questionCounter = getElement('qCounter')
-const answerCounter = getElement('aCounter')
-const tagCounters = getElement('tagCounter')
+const labels = document.querySelectorAll('[data-js="inputLabels"]')
 
-textareaQuestion.addEventListener('input', event => {
-  const qcounter = document.querySelector('[data-js="qCounter"]')
-  qcounter.textContent = `${event.currentTarget.value.length}/200`
-})
-
-textareaAnswer.addEventListener('input', event => {
-  const acounter = document.querySelector('[data-js="aCounter"]')
-  acounter.textContent = `${event.currentTarget.value.length}/200`
-})
-
-textareaTags.addEventListener('input', event => {
-  const tcounter = document.querySelector('[data-js="tagCounter"]')
-  tcounter.textContent = `${event.currentTarget.value.length}/50`
+labels.forEach(label => {
+  const textarea = label.querySelector('[data-js="inputbox"]')
+  const counter = label.querySelector('[data-js="counter"]')
+  textarea.addEventListener('input', event => {
+    counter.textContent = `${event.currentTarget.value.length}/200`
+  })
 })
 
 formEl.addEventListener('submit', event => {

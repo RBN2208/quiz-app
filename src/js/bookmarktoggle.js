@@ -1,18 +1,9 @@
-const bookmarkSigns = getallBookmarks('bookmarkSign')
+const bookmarkSigns = document.querySelectorAll('[data-js="bookmarkSign"]')
+console.log(bookmarkSigns)
 
-bookmarksSigns.forEach(bookmarkSign => {
-  const toggleButton = bookmarkSign.getElement('bookmarkSign')
-  const toggleColor = bookmarkSign.getElement('bookmarkSign')
-
-  toggleButton.addEventListener('click', () => {
-    toggleColor.classList.toggle('marked')
+bookmarkSigns.forEach(sign => {
+  //const button = document.querySelector('[data-js="bookmarkSign"]')
+  sign.addEventListener('click', () => {
+    sign.classList.toggle('marked')
   })
 })
-
-function getElement(dataJsName) {
-  return document.querySelector(`[data-js="${dataJsName}"]`)
-}
-
-function getallBookmarks(dataJsName) {
-  return document.querySelectorAll(`[data-js="${dataJsName}"]`)
-}

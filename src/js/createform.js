@@ -1,13 +1,21 @@
 const formEl = getElement('formElement')
-const formQuestion = getElement('formQuestion')
-const formAnswer = getElement('formAnswer')
-const formTags = getElement('formTags')
+const textareaQuestion = getElement('inputbox')
+
+const labels = document.querySelectorAll('[data-js="inputLabels"]')
+
+labels.forEach(label => {
+  const textarea = label.querySelector('[data-js="inputbox"]')
+  const counter = label.querySelector('[data-js="counter"]')
+  textarea.addEventListener('input', event => {
+    counter.textContent = `${event.currentTarget.value.length}/200`
+  })
+})
 
 formEl.addEventListener('submit', event => {
   event.preventDefault()
   console.log(event)
   formEl.reset()
-  formQuestion.focus()
+  textareaQuestion.focus()
 })
 
 function getElement(dataJsName) {

@@ -37,3 +37,15 @@ textarea:focus {
   outline: none !important;
   border: 2px solid var(--sweet);
 }
+
+.textarea__relative {
+  position: relative;
+}
+
+.counter {
+  position: absolute;
+  bottom: 50px;
+  right: 8px;
+  font-size: 10px;
+  color: var(--teal);
+}

@@ -1,4 +1,4 @@
-import '../src/fontawesome/css/all.css'
+import '../fontawesome/css/all.css'
 
 import './app-grid.css'
 import html from './app-grid.html'

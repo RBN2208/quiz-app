@@ -1,4 +1,4 @@
-import '../src/fontawesome/css/all.css'
+import '../fontawesome/css/all.css'
 
 import './quizcard.css'
 import quizcard from './quizcard.html'

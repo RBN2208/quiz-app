@@ -8,6 +8,7 @@
     <script defer type="module" src="./js/navigationtoggle.js"></script>
     <script defer type="module" src="./js/createform.js"></script>
     <script defer type="module" src="./js/bookmarktoggle.js"></script>
+    <script defer type="module" src="./js/cardtoggle.js"></script>
   </head>
   <body class="app-grid">
     <header class="header centered-grid">
@@ -16,19 +17,22 @@
 
     <main class="content">
       <section data-js="siteIndex">
-        <section class="quizcard__card">
+        <section class="quizcard__card" data-js="cards">
           <div role="button" data-js="bookmarkSign" class="bookmark__sign">
             <i class="fas fa-bookmark"></i>
           </div>
           <h3 class="quizcard__headline">Question:</h3>
           <p>How many fingers does a person have?</p>
-          <details class="quizcard__details">
-            <summary class="quizcard__answer-button">
-              <span class="answer__show">Show answer</span>
-              <span class="answer__hide">Hide answer</span>
-            </summary>
+          <button
+            role="button"
+            class="quizcard__answer-button"
+            data-js="answerButton"
+          >
+            Show answer
+          </button>
+          <div data-js="answerBox" class="quizcard__answer hidden">
             <p>Five</p>
-          </details>
+          </div>
           <ul class="quizcard__tags">
             <li>CSS</li>
             <li>HTML</li>
@@ -37,20 +41,22 @@
             <li>Englisch</li>
           </ul>
         </section>
-        <section class="quizcard__card">
+        <section class="quizcard__card" data-js="cards">
           <div role="button" data-js="bookmarkSign" class="bookmark__sign">
             <i class="fas fa-bookmark"></i>
           </div>
-
           <h3 class="quizcard__headline">Question:</h3>
           <p>How many fingers does a person have?</p>
-          <details class="quizcard__details">
-            <summary class="quizcard__answer-button">
-              <span class="answer__show">Show answer</span>
-              <span class="answer__hide">Hide answer</span>
-            </summary>
+          <button
+            role="button"
+            class="quizcard__answer-button"
+            data-js="answerButton"
+          >
+            Show answer
+          </button>
+          <div data-js="answerBox" class="quizcard__answer hidden">
             <p>Five</p>
-          </details>
+          </div>
           <ul class="quizcard__tags">
             <li>CSS</li>
             <li>HTML</li>
@@ -59,20 +65,22 @@
             <li>Englisch</li>
           </ul>
         </section>
-        <section class="quizcard__card">
+        <section class="quizcard__card" data-js="cards">
           <div role="button" data-js="bookmarkSign" class="bookmark__sign">
             <i class="fas fa-bookmark"></i>
           </div>
-
           <h3 class="quizcard__headline">Question:</h3>
           <p>How many fingers does a person have?</p>
-          <details class="quizcard__details">
-            <summary class="quizcard__answer-button">
-              <span class="answer__show">Show answer</span>
-              <span class="answer__hide">Hide answer</span>
-            </summary>
+          <button
+            role="button"
+            class="quizcard__answer-button"
+            data-js="answerButton"
+          >
+            Show answer
+          </button>
+          <div data-js="answerBox" class="quizcard__answer hidden">
             <p>Five</p>
-          </details>
+          </div>
           <ul class="quizcard__tags">
             <li>CSS</li>
             <li>HTML</li>
@@ -81,20 +89,22 @@
             <li>Englisch</li>
           </ul>
         </section>
-        <section class="quizcard__card">
+        <section class="quizcard__card" data-js="cards">
           <div role="button" data-js="bookmarkSign" class="bookmark__sign">
             <i class="fas fa-bookmark"></i>
           </div>
-
           <h3 class="quizcard__headline">Question:</h3>
           <p>How many fingers does a person have?</p>
-          <details class="quizcard__details">
-            <summary class="quizcard__answer-button">
-              <span class="answer__show">Show answer</span>
-              <span class="answer__hide">Hide answer</span>
-            </summary>
+          <button
+            role="button"
+            class="quizcard__answer-button"
+            data-js="answerButton"
+          >
+            Show answer
+          </button>
+          <div data-js="answerBox" class="quizcard__answer hidden">
             <p>Five</p>
-          </details>
+          </div>
           <ul class="quizcard__tags">
             <li>CSS</li>
             <li>HTML</li>
@@ -103,20 +113,46 @@
             <li>Englisch</li>
           </ul>
         </section>
-        <section class="quizcard__card">
+        <section class="quizcard__card" data-js="cards">
           <div role="button" data-js="bookmarkSign" class="bookmark__sign">
             <i class="fas fa-bookmark"></i>
           </div>
-
           <h3 class="quizcard__headline">Question:</h3>
           <p>How many fingers does a person have?</p>
-          <details class="quizcard__details">
-            <summary class="quizcard__answer-button">
-              <span class="answer__show">Show answer</span>
-              <span class="answer__hide">Hide answer</span>
-            </summary>
+          <button
+            role="button"
+            class="quizcard__answer-button"
+            data-js="answerButton"
+          >
+            Show answer
+          </button>
+          <div data-js="answerBox" class="quizcard__answer hidden">
             <p>Five</p>
-          </details>
+          </div>
+          <ul class="quizcard__tags">
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Javascript</li>
+            <li>Mathe</li>
+            <li>Englisch</li>
+          </ul>
+        </section>
+        <section class="quizcard__card" data-js="cards">
+          <div role="button" data-js="bookmarkSign" class="bookmark__sign">
+            <i class="fas fa-bookmark"></i>
+          </div>
+          <h3 class="quizcard__headline">Question:</h3>
+          <p>How many fingers does a person have?</p>
+          <button
+            role="button"
+            class="quizcard__answer-button"
+            data-js="answerButton"
+          >
+            Show answer
+          </button>
+          <div data-js="answerBox" class="quizcard__answer hidden">
+            <p>Five</p>
+          </div>
           <ul class="quizcard__tags">
             <li>CSS</li>
             <li>HTML</li>
@@ -128,42 +164,22 @@
       </section>
 
       <section hidden data-js="siteBook">
-        <section class="quizcard__card">
+        <section class="quizcard__card" data-js="cards">
           <div role="button" data-js="bookmarkSign" class="bookmark__sign">
             <i class="fas fa-bookmark"></i>
           </div>
-
           <h3 class="quizcard__headline">Question:</h3>
           <p>How many fingers does a person have?</p>
-          <details class="quizcard__details">
-            <summary class="quizcard__answer-button">
-              <span class="answer__show">Show answer</span>
-              <span class="answer__hide">Hide answer</span>
-            </summary>
+          <button
+            role="button"
+            class="quizcard__answer-button"
+            data-js="answerButton"
+          >
+            Show answer
+          </button>
+          <div data-js="answerBox" class="quizcard__answer hidden">
             <p>Five</p>
-          </details>
-          <ul class="quizcard__tags">
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>Javascript</li>
-            <li>Mathe</li>
-            <li>Englisch</li>
-          </ul>
-        </section>
-        <section class="quizcard__card">
-          <div role="button" data-js="bookmarkSign" class="bookmark__sign">
-            <i class="fas fa-bookmark"></i>
           </div>
-
-          <h3 class="quizcard__headline">Question:</h3>
-          <p>How many fingers does a person have?</p>
-          <details class="quizcard__details">
-            <summary class="quizcard__answer-button">
-              <span class="answer__show">Show answer</span>
-              <span class="answer__hide">Hide answer</span>
-            </summary>
-            <p>Five</p>
-          </details>
           <ul class="quizcard__tags">
             <li>CSS</li>
             <li>HTML</li>

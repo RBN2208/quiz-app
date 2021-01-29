@@ -17,28 +17,21 @@
   background-color: var(--blue);
 }
 
-.quizcard__details {
-  width: 80%;
-  margin: 15px auto;
-  border: 1px solid rgb(150, 150, 150);
-  border-radius: 5px;
-  overflow: hidden;
-  background-color: var(--white);
-}
-
-details[open] .answer__show {
-  display: none;
-}
-details[open] .answer__hide {
-  display: inline-block;
-}
-
-details .answer__hide {
-  display: none;
-}
-
 .quizcard__answer-button {
-  background-color: var(--peach);
+  padding: 5px 15px;
+  border: 1px solid black;
+  background-color: var(--blue);
+  color: white;
+}
+
+.quizcard__answer--hide {
+  display: none;
+}
+
+.quizcard__answer {
+  background-color: burlywood;
+  margin: 10px 10px;
+  border: 2px solid var(--sweet);
 }
 
 .quizcard__tags {

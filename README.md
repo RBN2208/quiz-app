@@ -5,8 +5,8 @@
 implement javascript function for:
 
 > - [x] counter for question/answer
-> - [] show/hide answer toggle via js
-> - [] checkbox for darkmode
+> - [ ] show/hide answer toggle via js
+> - [ ] checkbox for darkmode
 
 ## Installation
 

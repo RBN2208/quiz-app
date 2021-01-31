@@ -24,7 +24,7 @@ labels.forEach(label => {
   const textarea = label.querySelector('[data-js="inputbox"]')
   const counter = label.querySelector('[data-js="counter"]')
   textarea.addEventListener('input', event => {
-    counter.textContent = `${event.currentTarget.value.length}/200`
+    counter.textContent = `${event.currentTarget.value.length}/${textarea.maxLength}`
   })
 })
 
@@ -33,6 +33,11 @@ formEl.addEventListener('submit', event => {
   console.log(event)
   formEl.reset()
   textareaQuestion.focus()
+  labels.forEach(label => {
+    const textarea = label.querySelector('[data-js="inputbox"]')
+    const counter = label.querySelector('[data-js="counter"]')
+    counter.textContent = `0/${textarea.maxLength}`
+  })
 })
 
 // bookmark toggle

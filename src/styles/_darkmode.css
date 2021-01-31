@@ -1,0 +1,25 @@
+.header {
+  background-color: var(--darkteal);
+}
+
+.footer {
+  background-color: var(--darkteal);
+}
+
+.content {
+  background-color: var(--darkyell);
+}
+
+.quizcard__card {
+  background-color: var(--darkteal);
+  border: 1px solid var(--lightyell);
+}
+
+.quizcard__headline {
+  background-color: var(--light);
+  color: black;
+}
+
+.app-grid {
+  color: white;
+}

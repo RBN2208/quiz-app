@@ -1,25 +1,43 @@
-.header {
-  background-color: var(--darkteal);
+.app-grid--dark {
+  color: white !important;
 }
 
-.footer {
-  background-color: var(--darkteal);
+.header--dark {
+  background-color: var(--darkteal) !important;
 }
 
-.content {
-  background-color: var(--darkyell);
+.footer--dark {
+  background-color: var(--darkteal) !important;
 }
 
-.quizcard__card {
-  background-color: var(--darkteal);
-  border: 1px solid var(--lightyell);
+.content--dark {
+  background-color: var(--darkyell) !important;
 }
 
-.quizcard__headline {
-  background-color: var(--light);
-  color: black;
+.quizcard__card--dark {
+  background-color: var(--darkteal) !important;
+  border: 1px solid var(--lightyell) !important;
 }
 
-.app-grid {
-  color: white;
+.quizcard__headline--dark {
+  background-color: var(--light) !important;
+  color: black !important;
+}
+
+.create__input--dark {
+  background-color: var(--grey) !important;
+  color: white !important;
+}
+
+.answerBox--dark {
+  background-color: lightslategray !important;
+  border: 1px solid var(--light) !important;
+}
+
+.counter--dark {
+  color: white !important;
+}
+
+.profil__info--dark {
+  background-color: var(--blue) !important;
 }

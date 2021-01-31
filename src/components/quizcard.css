@@ -29,9 +29,9 @@
 }
 
 .quizcard__answer {
-  background-color: burlywood;
+  background-color: lightgray;
   margin: 10px 10px;
-  border: 2px solid var(--sweet);
+  border: 2px solid var(--blue);
 }
 
 .quizcard__tags {

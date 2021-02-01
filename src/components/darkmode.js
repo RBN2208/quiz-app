@@ -22,16 +22,16 @@ export default function darkmode() {
     submitButton.classList.toggle('create__submit--dark')
 
     labels.forEach(label => {
-      let textInputbox = getByDataJs('inputbox', label)
-      let counterDark = getByDataJs('counter', label)
+      const textInputbox = getByDataJs('inputbox', label)
+      const counterDark = getByDataJs('counter', label)
 
       counterDark.classList.toggle('counter--dark')
       textInputbox.classList.toggle('create__input--dark')
     })
 
     cards.forEach(card => {
-      let cardHeader = getByDataJs('cardHeadline', card)
-      let answerBox = getByDataJs('answerBox', card)
+      const cardHeader = getByDataJs('cardHeadline', card)
+      const answerBox = getByDataJs('answerBox', card)
 
       cardHeader.classList.toggle('quizcard__headline--dark')
       card.classList.toggle('quizcard__card--dark')

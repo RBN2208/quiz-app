@@ -1,28 +1,28 @@
 // answer-toggle
-const cards = document.querySelectorAll('[data-js="cards"]')
+const cards = getAllByDataJs('cards')
 
 // form-counter and no reset
-const formEl = getElement('formElement')
-const textareaQuestion = getElement('inputbox')
-const labels = document.querySelectorAll('[data-js="inputLabels"]')
+const formEl = getByDataJs('formElement')
+const textareaQuestion = getByDataJs('inputbox')
+const labels = getAllByDataJs('inputLabels')
 
 // bookmark toggle
-const bookmarkSigns = document.querySelectorAll('[data-js="bookmarkSign"]')
+const bookmarkSigns = getAllByDataJs('bookmarkSign')
 
 // darkmode
-const darkmodeButton = getElement('darkmodeButton')
+const darkmodeButton = getByDataJs('darkmodeButton')
 
-const body = getElement('mainBody')
-const header = getElement('headerBox')
-const content = getElement('contentBox')
-const footer = getElement('footerBox')
-const profilInfo = getElement('profilInfo')
-const cardHeader = getElement('cardHeadline')
+const body = getByDataJs('mainBody')
+const header = getByDataJs('headerBox')
+const content = getByDataJs('contentBox')
+const footer = getByDataJs('footerBox')
+const profilInfo = getByDataJs('profilInfo')
+const cardHeader = getByDataJs('cardHeadline')
 
 // function for answer-toggle
 cards.forEach(card => {
-  const button = card.querySelector('[data-js="answerButton"]')
-  const answer = card.querySelector('[data-js="answerBox"]')
+  const button = getByDataJs('answerButton', card)
+  const answer = getByDataJs('answerBox', card)
 
   button.addEventListener('click', () => {
     answer.classList.toggle('hidden')
@@ -31,8 +31,8 @@ cards.forEach(card => {
 
 // form counter and no reset
 labels.forEach(label => {
-  const textarea = label.querySelector('[data-js="inputbox"]')
-  const counter = label.querySelector('[data-js="counter"]')
+  const textarea = getByDataJs('inputbox', label)
+  const counter = getByDataJs('counter', label)
   textarea.addEventListener('input', event => {
     counter.textContent = `${event.currentTarget.value.length}/${textarea.maxLength}`
   })
@@ -44,8 +44,8 @@ formEl.addEventListener('submit', event => {
   formEl.reset()
   textareaQuestion.focus()
   labels.forEach(label => {
-    const textarea = label.querySelector('[data-js="inputbox"]')
-    const counter = label.querySelector('[data-js="counter"]')
+    const textarea = getByDataJs('inputbox', label)
+    const counter = getByDataJs('counter', label)
     counter.textContent = `0/${textarea.maxLength}`
   })
 })
@@ -66,16 +66,16 @@ darkmodeButton.addEventListener('click', () => {
   profilInfo.classList.toggle('profil__info--dark')
 
   labels.forEach(label => {
-    let textInputbox = label.querySelector('[data-js="inputbox"]')
-    let counterDark = label.querySelector('[data-js="counter"]')
+    let textInputbox = getByDataJs('inputbox', label)
+    let counterDark = getByDataJs('counter', label)
 
     counterDark.classList.toggle('counter--dark')
     textInputbox.classList.toggle('create__input--dark')
   })
 
   cards.forEach(card => {
-    let cardHeader = card.querySelector('[data-js="cardHeadline"]')
-    let answerBox = card.querySelector('[data-js="answerBox"]')
+    let cardHeader = getByDataJs('cardHeadline', card)
+    let answerBox = getByDataJs('answerBox', card)
 
     cardHeader.classList.toggle('quizcard__headline--dark')
     card.classList.toggle('quizcard__card--dark')
@@ -83,7 +83,17 @@ darkmodeButton.addEventListener('click', () => {
   })
 })
 
-// function for data-js import
+function getByDataJs(dataJsName, target = document) {
+  return target.querySelector(`[data-js="${dataJsName}"]`)
+}
+
+function getAllByDataJs(dataJsName, target = document) {
+  return target.querySelectorAll(`[data-js="${dataJsName}"]`)
+}
+
+/*
+// function for data-js import - this is not a variable version
 function getElement(dataJsName) {
   return document.querySelector(`[data-js="${dataJsName}"]`)
 }
+*/

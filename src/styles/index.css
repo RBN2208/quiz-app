@@ -9,5 +9,6 @@
 @import '../components/bookmark.css';
 @import '../components/create.css';
 @import '../components/profil.css';
+@import './_darkmode.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
 @import '../fontawesome/css/all.css';

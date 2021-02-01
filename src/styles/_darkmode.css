@@ -17,6 +17,7 @@
 .quizcard__card--dark {
   background-color: var(--darkteal) !important;
   border: 1px solid var(--lightyell) !important;
+  box-shadow: 0 0 15px rgb(0, 0, 0) !important;
 }
 
 .quizcard__headline--dark {
@@ -27,8 +28,13 @@
 .create__input--dark {
   background-color: var(--grey) !important;
   color: white !important;
+  border: none;
 }
 
+.create__submit--dark {
+  background-color: var(--teal);
+  box-shadow: 0 0 10px var(--teal);
+}
 .answerBox--dark {
   background-color: lightslategray !important;
   border: 1px solid var(--light) !important;

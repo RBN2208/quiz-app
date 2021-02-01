@@ -9,7 +9,7 @@ export default function darkmode() {
   const content = getByDataJs('contentBox')
   const footer = getByDataJs('footerBox')
   const profilInfo = getByDataJs('profilInfo')
-
+  const submitButton = getByDataJs('submitButton')
   const labels = getAllByDataJs('inputLabels')
   const cards = getAllByDataJs('cards')
 
@@ -19,6 +19,7 @@ export default function darkmode() {
     content.classList.toggle('content--dark')
     footer.classList.toggle('footer--dark')
     profilInfo.classList.toggle('profil__info--dark')
+    submitButton.classList.toggle('create__submit--dark')
 
     labels.forEach(label => {
       let textInputbox = getByDataJs('inputbox', label)

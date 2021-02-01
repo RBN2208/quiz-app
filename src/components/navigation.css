@@ -3,7 +3,6 @@
   background-color: var(--teal);
   text-align: center;
   box-shadow: 0 10px 30px rgb(0, 0, 0);
-
   pointer-events: none;
 }
 

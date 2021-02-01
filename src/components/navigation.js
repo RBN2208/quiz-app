@@ -1,4 +1,4 @@
-import getByDataJs from './getByDataJs'
+import getByDataJs from '../js/getByDataJs'
 
 export default function navigation() {
   const sIndex = getByDataJs('siteIndex')

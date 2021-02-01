@@ -1,8 +1,8 @@
-import navigation from './navigation'
-import darkmode from './darkmode'
-import createForm from './createform'
-import bookmarkToggle from './bookmark'
-import cards from './cards'
+import navigation from '../components/navigation'
+import darkmode from '../components/darkmode'
+import createForm from '../components/createform'
+import bookmarkToggle from '../components/bookmark'
+import cards from '../components/cards'
 
 cards()
 navigation()

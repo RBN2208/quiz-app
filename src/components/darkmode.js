@@ -1,5 +1,5 @@
-import getByDataJs from './getByDataJs'
-import getAllByDataJs from './getAllByDataJs'
+import getByDataJs from '../js/getByDataJs'
+import getAllByDataJs from '../js/getAllByDataJs'
 
 export default function darkmode() {
   const darkmodeButton = getByDataJs('darkmodeButton')

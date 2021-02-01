@@ -13,7 +13,7 @@
     </header>
 
     <main class="content" data-js="contentBox">
-      <section data-js="siteIndex">
+      <section data-js="page" data-name="home">
         <section class="quizcard__card" data-js="cards">
           <div role="button" data-js="bookmarkSign" class="bookmark__sign">
             <i class="fas fa-bookmark"></i>
@@ -64,7 +64,7 @@
         </section>
       </section>
 
-      <section hidden data-js="siteBook">
+      <section data-js="page" data-name="bookmark" class="hidden">
         <section class="quizcard__card" data-js="cards">
           <div role="button" data-js="bookmarkSign" class="bookmark__sign">
             <i class="fas fa-bookmark"></i>
@@ -91,7 +91,7 @@
         </section>
       </section>
 
-      <section hidden data-js="siteCreate" class="mg-top">
+      <section data-js="page" data-name="create" class="mg-top hidden">
         <form data-js="formElement">
           <div class="textarea__relative">
             <label data-js="inputLabels"
@@ -147,7 +147,7 @@
           />
         </form>
       </section>
-      <section hidden data-js="siteProfile">
+      <section data-js="page" data-name="settings" class="hidden">
         <div class="profil__info--change" role="button">
           <i class="fas fa-cog"></i>
         </div>
@@ -196,28 +196,32 @@
         <a
           aria-label="home"
           class="navigation__button"
-          data-js="buttonIndex"
+          data-js="nav"
+          data-name="home"
           role="button"
           ><i class="far fa-star"></i
         ></a>
         <a
           aria-label="bookmark"
           class="navigation__button"
-          data-js="buttonBook"
+          data-js="nav"
+          data-name="bookmark"
           role="button"
           ><i class="far fa-bookmark"></i
         ></a>
         <a
           aria-label="newcard"
           class="navigation__button"
-          data-js="buttonCreate"
+          data-js="nav"
+          data-name="create"
           role="button"
           ><i class="far fa-plus-square"></i
         ></a>
         <a
           aria-label="profil"
           class="navigation__button"
-          data-js="buttonProfile"
+          data-js="nav"
+          data-name="settings"
           role="button"
           ><i class="far fa-user-circle"></i
         ></a>

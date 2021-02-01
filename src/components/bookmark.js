@@ -1,4 +1,4 @@
-import getAllByDataJs from './getAllByDataJs'
+import getAllByDataJs from '../js/getAllByDataJs'
 
 export default function bookmarkToggle() {
   const bookmarkSigns = getAllByDataJs('bookmarkSign')

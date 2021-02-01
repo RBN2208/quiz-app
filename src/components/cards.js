@@ -1,5 +1,5 @@
-import getAllByDataJs from './getAllByDataJs'
-import getByDataJs from './getByDataJs'
+import getAllByDataJs from '../js/getAllByDataJs'
+import getByDataJs from '../js/getByDataJs'
 
 export default function cards() {
   const cards = getAllByDataJs('cards')

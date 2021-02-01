@@ -1,11 +1,11 @@
 import '../fontawesome/css/all.css'
 
 import './profil.css'
-import './profil.html'
+import profil from './profil.html'
 
 export default {
   title: 'Profil',
-  component: Profilsection,
+  component: profil,
 }
 
-export const base = () => Profil
+export const base = () => profil

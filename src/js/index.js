@@ -9,6 +9,16 @@ const labels = document.querySelectorAll('[data-js="inputLabels"]')
 // bookmark toggle
 const bookmarkSigns = document.querySelectorAll('[data-js="bookmarkSign"]')
 
+// darkmode
+const darkmodeButton = getElement('darkmodeButton')
+
+const body = getElement('mainBody')
+const header = getElement('headerBox')
+const content = getElement('contentBox')
+const footer = getElement('footerBox')
+const profilInfo = getElement('profilInfo')
+const cardHeader = getElement('cardHeadline')
+
 // function for answer-toggle
 cards.forEach(card => {
   const button = card.querySelector('[data-js="answerButton"]')
@@ -44,6 +54,32 @@ formEl.addEventListener('submit', event => {
 bookmarkSigns.forEach(sign => {
   sign.addEventListener('click', () => {
     sign.classList.toggle('marked')
+  })
+})
+
+// darkmode functions
+darkmodeButton.addEventListener('click', () => {
+  body.classList.toggle('app-grid--dark')
+  header.classList.toggle('header--dark')
+  content.classList.toggle('content--dark')
+  footer.classList.toggle('footer--dark')
+  profilInfo.classList.toggle('profil__info--dark')
+
+  labels.forEach(label => {
+    let textInputbox = label.querySelector('[data-js="inputbox"]')
+    let counterDark = label.querySelector('[data-js="counter"]')
+
+    counterDark.classList.toggle('counter--dark')
+    textInputbox.classList.toggle('create__input--dark')
+  })
+
+  cards.forEach(card => {
+    let cardHeader = card.querySelector('[data-js="cardHeadline"]')
+    let answerBox = card.querySelector('[data-js="answerBox"]')
+
+    cardHeader.classList.toggle('quizcard__headline--dark')
+    card.classList.toggle('quizcard__card--dark')
+    answerBox.classList.toggle('answerBox--dark')
   })
 })
 
